@@ -1,0 +1,63 @@
+# VisuraDoc
+
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**filename** | **str** | Filename | 
+**visura_type** | **str** | Type of visura: Visura Ordinaria, Visura di Evasione or Visura Storica | [optional] 
+**business_name** | **str** | Business name of the company | [optional] 
+**address** | **str** | Address | [optional] 
+**pec_address** | **str** | PEC address | [optional] 
+**rea_number** | **str** | REA number | [optional] 
+**social_security_number** | **str** | Italian social security number | [optional] 
+**vat_number** | **str** | VAT code | [optional] 
+**lei_code** | **str** | LEI code | [optional] 
+**legal_form** | **str** | Type of society | [optional] 
+**foundation_date** | **str** | Foundation date | [optional] 
+**registration_date** | **str** | Registration date | [optional] 
+**last_protocoll_date** | **str** | Date of the last protocol | [optional] 
+**prime_president** | **str** | President | [optional] 
+**activity_status** | **str** | Activity status | [optional] 
+**starting_activity_date** | **str** | Activity starting date | [optional] 
+**main_activity** | **str** | Main activity | [optional] 
+**ateco_code** | **str** | ATECO code | [optional] 
+**nace_code** | **str** | NACE code | [optional] 
+**import_export_activity** | **str** | Import export activity | [optional] 
+**network_contract** | **str** | Network contract | [optional] 
+**registries_roles_licenses** | **str** | Registries, roles and licence | [optional] 
+**environmental_registers** | **str** | Environmental Registries | [optional] 
+**share_capital** | **str** | Share Capital | [optional] 
+**employees_at_reference_date** | **str** | Employees at reference date | [optional] 
+**ri_documents** | **str** | RI documents | [optional] 
+**partners** | **str** | Partners | [optional] 
+**administrators** | **str** | Administrators | [optional] 
+**office_holders** | **str** | Office holders | [optional] 
+**local_units** | **str** | Local units | [optional] 
+**practices_sent_in_the_last_twelve_months** | **str** | Number of practices sent in the last twelve months | [optional] 
+**soa_certifications** | **str** | SOA certification | [optional] 
+**transfer_of_shares** | **str** | Transfer of shares | [optional] 
+**headquarters_transfers** | **str** | Transfer of headquarter | [optional] 
+**equity_investments** | **str** | Equity investments | [optional] 
+**dossier** | **str** | Dossier | [optional] 
+**statute** | **str** | Statute | [optional] 
+**other_acts** | **str** | Other acts | [optional] 
+**quality_certifications** | **str** | Quality certification | [optional] 
+**balance** | **str** | Balance | [optional] 
+**share_capital_in_euro** | [**ShareCapital**](ShareCapital.md) |  | [optional] 
+**administrator** | **[str]** | Administrator | [optional] 
+**president** | **[str]** | President | [optional] 
+**counselor** | **[str]** | Counselor | [optional] 
+**ceo** | **[str]** | CEO | [optional] 
+**mayor** | **[str]** | Mayor | [optional] 
+**chairman_statutory_auditor** | **[str]** | Chairman statutory auditor | [optional] 
+**alternate_mayor** | **[str]** | Alternate mayor | [optional] 
+**partner** | **[str]** | Partner | [optional] 
+**unique_partner** | **[str]** | Unique Partner | [optional] 
+**propriety** | **[str]** | Propriety | [optional] 
+**vice_president** | **[str]** | Vice president | [optional] 
+**atecori2007_classifications** | **[str]** | ATECO code classification (list and description) | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
