@@ -25,7 +25,7 @@ The automatization provides scalability and the speeding up of the processes rel
 The following documentation is addressed both to developers, in order to provide all technical details for INDA integration,
 and to managers, to guide them in the exploration of the implementation possibilities.
 
-The host of the API is <span style=\"color:blue\">https<area>://api.inda.ai/desk/v1/</span>.
+The host of the API is <span style="color:blue">https<area>://api.inda.ai/desk/v1/</span>.
 We recommend to check the API version and build (displayed near the documentation title).
 You can contact us at support@intervieweb.it in case of problems, suggestions, or particular needs.
 
