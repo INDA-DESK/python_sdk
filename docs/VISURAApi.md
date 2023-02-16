@@ -4,8 +4,8 @@ All URIs are relative to *https://api.inda.ai*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**bulk_visura_parser_post**](VISURAApi.md#bulk_visura_parser_post) | **POST** /desk/v1/parsing/bulk/visure/ | Bulk Visura Parser
-[**visura_parser_post**](VISURAApi.md#visura_parser_post) | **POST** /desk/v1/parsing/visura/ | Visura Parser
+[**bulk_visura_parser_post**](VISURAApi.md#bulk_visura_parser_post) | **POST** /desk/v1/parse/visura/bulk/data/ | Bulk Visura Parser
+[**visura_parser_post**](VISURAApi.md#visura_parser_post) | **POST** /desk/v1/parse/visura/data/ | Visura Parser
 
 
 # **bulk_visura_parser_post**

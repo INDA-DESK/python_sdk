@@ -93,7 +93,7 @@ class OptionalVisuraDoc(ModelNormal):
             'legal_form': (str,),  # noqa: E501
             'foundation_date': (str,),  # noqa: E501
             'registration_date': (str,),  # noqa: E501
-            'last_protocoll_date': (str,),  # noqa: E501
+            'last_protocol_date': (str,),  # noqa: E501
             'prime_president': (str,),  # noqa: E501
             'activity_status': (str,),  # noqa: E501
             'starting_activity_date': (str,),  # noqa: E501
@@ -154,7 +154,7 @@ class OptionalVisuraDoc(ModelNormal):
         'legal_form': 'LegalForm',  # noqa: E501
         'foundation_date': 'FoundationDate',  # noqa: E501
         'registration_date': 'RegistrationDate',  # noqa: E501
-        'last_protocoll_date': 'LastProtocollDate',  # noqa: E501
+        'last_protocol_date': 'LastProtocolDate',  # noqa: E501
         'prime_president': 'PrimePresident',  # noqa: E501
         'activity_status': 'ActivityStatus',  # noqa: E501
         'starting_activity_date': 'StartingActivityDate',  # noqa: E501
@@ -250,7 +250,7 @@ class OptionalVisuraDoc(ModelNormal):
             legal_form (str): Type of society. [optional]  # noqa: E501
             foundation_date (str): Foundation date. [optional]  # noqa: E501
             registration_date (str): Registration date. [optional]  # noqa: E501
-            last_protocoll_date (str): Date of the last protocol. [optional]  # noqa: E501
+            last_protocol_date (str): Date of the last protocol. [optional]  # noqa: E501
             prime_president (str): President. [optional]  # noqa: E501
             activity_status (str): Activity status. [optional]  # noqa: E501
             starting_activity_date (str): Activity starting date. [optional]  # noqa: E501
@@ -388,7 +388,7 @@ class OptionalVisuraDoc(ModelNormal):
             legal_form (str): Type of society. [optional]  # noqa: E501
             foundation_date (str): Foundation date. [optional]  # noqa: E501
             registration_date (str): Registration date. [optional]  # noqa: E501
-            last_protocoll_date (str): Date of the last protocol. [optional]  # noqa: E501
+            last_protocol_date (str): Date of the last protocol. [optional]  # noqa: E501
             prime_president (str): President. [optional]  # noqa: E501
             activity_status (str): Activity status. [optional]  # noqa: E501
             starting_activity_date (str): Activity starting date. [optional]  # noqa: E501

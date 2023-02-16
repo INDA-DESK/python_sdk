@@ -77,7 +77,7 @@ class BaseFile(ModelNormal):
         """
         return {
             'file': (file_type,),  # noqa: E501
-            'ext': (str,),  # noqa: E501
+            'file_ext': (str,),  # noqa: E501
         }
 
     @cached_property
@@ -87,7 +87,7 @@ class BaseFile(ModelNormal):
 
     attribute_map = {
         'file': 'File',  # noqa: E501
-        'ext': 'Ext',  # noqa: E501
+        'file_ext': 'FileExt',  # noqa: E501
     }
 
     read_only_vars = {
@@ -97,12 +97,12 @@ class BaseFile(ModelNormal):
 
     @classmethod
     @convert_js_args_to_python_args
-    def _from_openapi_data(cls, file, ext, *args, **kwargs):  # noqa: E501
+    def _from_openapi_data(cls, file, file_ext, *args, **kwargs):  # noqa: E501
         """BaseFile - a model defined in OpenAPI
 
         Args:
             file (file_type):
-            ext (str):
+            file_ext (str):
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -167,7 +167,7 @@ class BaseFile(ModelNormal):
         self._visited_composed_classes = _visited_composed_classes + (self.__class__,)
 
         self.file = file
-        self.ext = ext
+        self.file_ext = file_ext
         for var_name, var_value in kwargs.items():
             if var_name not in self.attribute_map and \
                         self._configuration is not None and \
@@ -188,12 +188,12 @@ class BaseFile(ModelNormal):
     ])
 
     @convert_js_args_to_python_args
-    def __init__(self, file, ext, *args, **kwargs):  # noqa: E501
+    def __init__(self, file, file_ext, *args, **kwargs):  # noqa: E501
         """BaseFile - a model defined in OpenAPI
 
         Args:
             file (file_type):
-            ext (str):
+            file_ext (str):
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -256,7 +256,7 @@ class BaseFile(ModelNormal):
         self._visited_composed_classes = _visited_composed_classes + (self.__class__,)
 
         self.file = file
-        self.ext = ext
+        self.file_ext = file_ext
         for var_name, var_value in kwargs.items():
             if var_name not in self.attribute_map and \
                         self._configuration is not None and \

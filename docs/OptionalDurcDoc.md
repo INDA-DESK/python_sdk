@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **filename** | **str** | Filename | [optional] 
 **title** | **str** | Title of the DURC | [optional] 
-**protocol_number** | **str** | Number of the protocoll | [optional] 
+**protocol_number** | **str** | Number of the protocol | [optional] 
 **requested_date** | **str** | Date of request | [optional] 
 **expiration** | **str** | Expiration date | [optional] 
 **company_name** | **str** | Name of the company | [optional] 

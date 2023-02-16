@@ -45,7 +45,7 @@ class DURCApi(object):
                 'auth': [
                     'APIKey'
                 ],
-                'endpoint_path': '/desk/v1/parsing/bulk/durc/',
+                'endpoint_path': '/desk/v1/parse/durc/bulk/data/',
                 'operation_id': 'bulk_durc_parser_post',
                 'http_method': 'POST',
                 'servers': None,
@@ -97,7 +97,7 @@ class DURCApi(object):
                 'auth': [
                     'APIKey'
                 ],
-                'endpoint_path': '/desk/v1/parsing/durc/',
+                'endpoint_path': '/desk/v1/parse/durc/data/',
                 'operation_id': 'durc_parser_post',
                 'http_method': 'POST',
                 'servers': None,

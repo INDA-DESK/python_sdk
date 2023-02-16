@@ -119,16 +119,16 @@ Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *AuthenticationApi* | [**log_in_post**](docs/AuthenticationApi.md#log_in_post) | **POST** /desk/v1/auth/login/ | Log In
 *CreditsManagementApi* | [**search_credits_post**](docs/CreditsManagementApi.md#search_credits_post) | **POST** /desk/v1/index/{indexname}/credits/ | Search Credits
-*DURCApi* | [**bulk_durc_parser_post**](docs/DURCApi.md#bulk_durc_parser_post) | **POST** /desk/v1/parsing/bulk/durc/ | Bulk DURC Parser
-*DURCApi* | [**durc_parser_post**](docs/DURCApi.md#durc_parser_post) | **POST** /desk/v1/parsing/durc/ | DURC Parser
-*DURFApi* | [**bulk_durf_parser_post**](docs/DURFApi.md#bulk_durf_parser_post) | **POST** /desk/v1/parsing/bulk/durf/ | Bulk DURF Parser
-*DURFApi* | [**durf_parser_post**](docs/DURFApi.md#durf_parser_post) | **POST** /desk/v1/parsing/durf/ | DURF Parser
-*GenericParsingApi* | [**generic_parser_post**](docs/GenericParsingApi.md#generic_parser_post) | **POST** /desk/v1/parsing/text/ | Generic Parser
-*ItalianIdentityCardApi* | [**italian_id_card_electronic_version_post**](docs/ItalianIdentityCardApi.md#italian_id_card_electronic_version_post) | **POST** /desk/v1/parsing/id-docs/italian/identity-card/electronic/ | Italian ID Card - Electronic Version
-*ItalianIdentityCardApi* | [**italian_id_card_paper_version_post**](docs/ItalianIdentityCardApi.md#italian_id_card_paper_version_post) | **POST** /desk/v1/parsing/id-docs/italian/identity-card/paper/ | Italian ID Card - Paper Version
+*DURCApi* | [**bulk_durc_parser_post**](docs/DURCApi.md#bulk_durc_parser_post) | **POST** /desk/v1/parse/durc/bulk/data/ | Bulk DURC Parser
+*DURCApi* | [**durc_parser_post**](docs/DURCApi.md#durc_parser_post) | **POST** /desk/v1/parse/durc/data/ | DURC Parser
+*DURFApi* | [**bulk_durf_parser_post**](docs/DURFApi.md#bulk_durf_parser_post) | **POST** /desk/v1/parse/durf/bulk/data/ | Bulk DURF Parser
+*DURFApi* | [**durf_parser_post**](docs/DURFApi.md#durf_parser_post) | **POST** /desk/v1/parse/durf/data/ | DURF Parser
+*GenericParsingApi* | [**generic_parser_post**](docs/GenericParsingApi.md#generic_parser_post) | **POST** /desk/v1/parse/document/text/ | Generic Parser
+*ItalianIdentityCardApi* | [**italian_id_card_electronic_version_post**](docs/ItalianIdentityCardApi.md#italian_id_card_electronic_version_post) | **POST** /desk/v1/parse/id-docs/italian/identity-card/electronic/data/ | Italian ID Card - Electronic Version
+*ItalianIdentityCardApi* | [**italian_id_card_paper_version_post**](docs/ItalianIdentityCardApi.md#italian_id_card_paper_version_post) | **POST** /desk/v1/parse/id-docs/italian/identity-card/paper/data/ | Italian ID Card - Paper Version
 *UtilitiesApi* | [**health_status_get**](docs/UtilitiesApi.md#health_status_get) | **GET** /desk/v1/ | Health Status
-*VISURAApi* | [**bulk_visura_parser_post**](docs/VISURAApi.md#bulk_visura_parser_post) | **POST** /desk/v1/parsing/bulk/visure/ | Bulk Visura Parser
-*VISURAApi* | [**visura_parser_post**](docs/VISURAApi.md#visura_parser_post) | **POST** /desk/v1/parsing/visura/ | Visura Parser
+*VISURAApi* | [**bulk_visura_parser_post**](docs/VISURAApi.md#bulk_visura_parser_post) | **POST** /desk/v1/parse/visura/bulk/data/ | Bulk Visura Parser
+*VISURAApi* | [**visura_parser_post**](docs/VISURAApi.md#visura_parser_post) | **POST** /desk/v1/parse/visura/data/ | Visura Parser
 
 
 ## Documentation For Models

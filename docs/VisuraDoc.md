@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **legal_form** | **str** | Type of society | [optional] 
 **foundation_date** | **str** | Foundation date | [optional] 
 **registration_date** | **str** | Registration date | [optional] 
-**last_protocoll_date** | **str** | Date of the last protocol | [optional] 
+**last_protocol_date** | **str** | Date of the last protocol | [optional] 
 **prime_president** | **str** | President | [optional] 
 **activity_status** | **str** | Activity status | [optional] 
 **starting_activity_date** | **str** | Activity starting date | [optional] 

@@ -4,8 +4,8 @@ All URIs are relative to *https://api.inda.ai*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**italian_id_card_electronic_version_post**](ItalianIdentityCardApi.md#italian_id_card_electronic_version_post) | **POST** /desk/v1/parsing/id-docs/italian/identity-card/electronic/ | Italian ID Card - Electronic Version
-[**italian_id_card_paper_version_post**](ItalianIdentityCardApi.md#italian_id_card_paper_version_post) | **POST** /desk/v1/parsing/id-docs/italian/identity-card/paper/ | Italian ID Card - Paper Version
+[**italian_id_card_electronic_version_post**](ItalianIdentityCardApi.md#italian_id_card_electronic_version_post) | **POST** /desk/v1/parse/id-docs/italian/identity-card/electronic/data/ | Italian ID Card - Electronic Version
+[**italian_id_card_paper_version_post**](ItalianIdentityCardApi.md#italian_id_card_paper_version_post) | **POST** /desk/v1/parse/id-docs/italian/identity-card/paper/data/ | Italian ID Card - Paper Version
 
 
 # **italian_id_card_electronic_version_post**

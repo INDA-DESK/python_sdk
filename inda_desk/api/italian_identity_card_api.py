@@ -44,7 +44,7 @@ class ItalianIdentityCardApi(object):
                 'auth': [
                     'APIKey'
                 ],
-                'endpoint_path': '/desk/v1/parsing/id-docs/italian/identity-card/electronic/',
+                'endpoint_path': '/desk/v1/parse/id-docs/italian/identity-card/electronic/data/',
                 'operation_id': 'italian_id_card_electronic_version_post',
                 'http_method': 'POST',
                 'servers': None,
@@ -96,7 +96,7 @@ class ItalianIdentityCardApi(object):
                 'auth': [
                     'APIKey'
                 ],
-                'endpoint_path': '/desk/v1/parsing/id-docs/italian/identity-card/paper/',
+                'endpoint_path': '/desk/v1/parse/id-docs/italian/identity-card/paper/data/',
                 'operation_id': 'italian_id_card_paper_version_post',
                 'http_method': 'POST',
                 'servers': None,

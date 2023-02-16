@@ -45,7 +45,7 @@ class DURFApi(object):
                 'auth': [
                     'APIKey'
                 ],
-                'endpoint_path': '/desk/v1/parsing/bulk/durf/',
+                'endpoint_path': '/desk/v1/parse/durf/bulk/data/',
                 'operation_id': 'bulk_durf_parser_post',
                 'http_method': 'POST',
                 'servers': None,
@@ -97,7 +97,7 @@ class DURFApi(object):
                 'auth': [
                     'APIKey'
                 ],
-                'endpoint_path': '/desk/v1/parsing/durf/',
+                'endpoint_path': '/desk/v1/parse/durf/data/',
                 'operation_id': 'durf_parser_post',
                 'http_method': 'POST',
                 'servers': None,

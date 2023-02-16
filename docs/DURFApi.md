@@ -4,8 +4,8 @@ All URIs are relative to *https://api.inda.ai*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**bulk_durf_parser_post**](DURFApi.md#bulk_durf_parser_post) | **POST** /desk/v1/parsing/bulk/durf/ | Bulk DURF Parser
-[**durf_parser_post**](DURFApi.md#durf_parser_post) | **POST** /desk/v1/parsing/durf/ | DURF Parser
+[**bulk_durf_parser_post**](DURFApi.md#bulk_durf_parser_post) | **POST** /desk/v1/parse/durf/bulk/data/ | Bulk DURF Parser
+[**durf_parser_post**](DURFApi.md#durf_parser_post) | **POST** /desk/v1/parse/durf/data/ | DURF Parser
 
 
 # **bulk_durf_parser_post**

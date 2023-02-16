@@ -153,7 +153,7 @@ class DurcDoc(ModelNormal):
                                 through its discriminator because we passed in
                                 _visited_composed_classes = (Animal,)
             title (str): Title of the DURC. [optional]  # noqa: E501
-            protocol_number (str): Number of the protocoll. [optional]  # noqa: E501
+            protocol_number (str): Number of the protocol. [optional]  # noqa: E501
             requested_date (str): Date of request. [optional]  # noqa: E501
             expiration (str): Expiration date. [optional]  # noqa: E501
             company_name (str): Name of the company. [optional]  # noqa: E501
@@ -252,7 +252,7 @@ class DurcDoc(ModelNormal):
                                 through its discriminator because we passed in
                                 _visited_composed_classes = (Animal,)
             title (str): Title of the DURC. [optional]  # noqa: E501
-            protocol_number (str): Number of the protocoll. [optional]  # noqa: E501
+            protocol_number (str): Number of the protocol. [optional]  # noqa: E501
             requested_date (str): Date of request. [optional]  # noqa: E501
             expiration (str): Expiration date. [optional]  # noqa: E501
             company_name (str): Name of the company. [optional]  # noqa: E501

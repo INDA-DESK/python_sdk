@@ -43,7 +43,7 @@ class GenericParsingApi(object):
                 'auth': [
                     'APIKey'
                 ],
-                'endpoint_path': '/desk/v1/parsing/text/',
+                'endpoint_path': '/desk/v1/parse/document/text/',
                 'operation_id': 'generic_parser_post',
                 'http_method': 'POST',
                 'servers': None,

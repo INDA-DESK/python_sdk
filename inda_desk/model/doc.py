@@ -89,7 +89,7 @@ class Doc(ModelComposed):
         lazy_import()
         return {
             'file': (file_type,),  # noqa: E501
-            'ext': (str,),  # noqa: E501
+            'file_ext': (str,),  # noqa: E501
         }
 
     @cached_property
@@ -99,7 +99,7 @@ class Doc(ModelComposed):
 
     attribute_map = {
         'file': 'File',  # noqa: E501
-        'ext': 'Ext',  # noqa: E501
+        'file_ext': 'FileExt',  # noqa: E501
     }
 
     read_only_vars = {
@@ -112,7 +112,7 @@ class Doc(ModelComposed):
 
         Keyword Args:
             file (file_type):
-            ext (str):
+            file_ext (str):
             _check_type (bool): if True, values for parameters in openapi_types
                                 will be type checked and a TypeError will be
                                 raised if the wrong type is input.
@@ -217,7 +217,7 @@ class Doc(ModelComposed):
 
         Keyword Args:
             file (file_type):
-            ext (str):
+            file_ext (str):
             _check_type (bool): if True, values for parameters in openapi_types
                                 will be type checked and a TypeError will be
                                 raised if the wrong type is input.

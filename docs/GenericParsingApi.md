@@ -4,7 +4,7 @@ All URIs are relative to *https://api.inda.ai*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**generic_parser_post**](GenericParsingApi.md#generic_parser_post) | **POST** /desk/v1/parsing/text/ | Generic Parser
+[**generic_parser_post**](GenericParsingApi.md#generic_parser_post) | **POST** /desk/v1/parse/document/text/ | Generic Parser
 
 
 # **generic_parser_post**

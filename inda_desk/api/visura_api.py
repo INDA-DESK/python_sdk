@@ -45,7 +45,7 @@ class VISURAApi(object):
                 'auth': [
                     'APIKey'
                 ],
-                'endpoint_path': '/desk/v1/parsing/bulk/visure/',
+                'endpoint_path': '/desk/v1/parse/visura/bulk/data/',
                 'operation_id': 'bulk_visura_parser_post',
                 'http_method': 'POST',
                 'servers': None,
@@ -97,7 +97,7 @@ class VISURAApi(object):
                 'auth': [
                     'APIKey'
                 ],
-                'endpoint_path': '/desk/v1/parsing/visura/',
+                'endpoint_path': '/desk/v1/parse/visura/data/',
                 'operation_id': 'visura_parser_post',
                 'http_method': 'POST',
                 'servers': None,
